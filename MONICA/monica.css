@@ -3,15 +3,17 @@
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 5%;
   padding: 30px;
   margin-left: 50px;
   margin-right: 100px;
   padding-right: 30px;
-  display: flex;
 }
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+.column>img{
+            border-radius: 50%;
 }
