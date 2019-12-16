@@ -1,3 +1,7 @@
 .jumbotron{
            background-color: black;
 }
+#logo{
+      display: block;
+      padding-left: 500px;
+}
