@@ -16,4 +16,12 @@
 }
 .column>img{
             border-radius: 50%;
+            margin-right: 50px;
+}
+body{
+     background-color: black;
+     color: white;
+}
+.description{
+             float: right;
 }
