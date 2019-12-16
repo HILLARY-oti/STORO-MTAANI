@@ -9,4 +9,9 @@ $(document).ready(function(){
   },function(){
     $("#monicap").slideUp()
   });
+  $("#njoro").hover(function(){
+    $("#njorop").slideDown()
+  },function(){
+    $("#njorop").slideUp()
+  });
 });
