@@ -1,5 +1,6 @@
 .jumbotron{
-           background-image: url(logo.jpeg);
+           background-image: url(maempress.jpeg);
+           background-size: cover;
 }
 .column {
   float: left;

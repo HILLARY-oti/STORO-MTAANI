@@ -1,6 +1,6 @@
 .jumbotron{
            background-image: url(sj.png);
-           background-size: cover;
+           background-size: contain;
 }
 .column {
   float: left;
