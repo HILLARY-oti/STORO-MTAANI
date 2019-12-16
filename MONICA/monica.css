@@ -22,3 +22,6 @@ body{
      background-color: black;
      color: white;
 }
+.description{
+             float: right;
+}
