@@ -1,4 +1,4 @@
-.jumbotron{
+.panel{
            background-color: black;
            padding-left: 500px;
 }
@@ -17,6 +17,9 @@
   display: flex;
   padding-left: 150px;
 }
+.row{
+    display: none;
+}
 .row::after {
   content: "";
   clear: both;
@@ -27,7 +30,8 @@
 }
 .suejonnie{
            display: block;
-           padding-left: 280px;
+           padding-left: 30px;
+           margin-left: 20px;
 }
 .suejonnie>p{
           display: none;
@@ -50,7 +54,16 @@
 }
 h1{
    text-align: center;
+   margin-top: 50px;
 }
 body{
      background-color: gainsboro;
+}
+.mySlides {
+  display:none;
+  margin-left: 400px;
+  margin-top: 100px;
+  border-color: black;
+  border-width: thick;
+
 }
