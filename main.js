@@ -19,4 +19,9 @@ $(document).ready(function(){
   },function(){
     $("#selinap").slideUp()
   });
+  $("#sj").hover(function(){
+    $("#sjp").slideDown()
+  },function(){
+    $("#sjp").slideUp()
+  });
 });
