@@ -16,6 +16,7 @@
   margin-right: 30px;
   padding-right: 30px;
   display: flex;
+  padding-left: 150px;
 }
 .row::after {
   content: "";
@@ -25,6 +26,10 @@
 .selina>p{
           display: none;
 }
+.suejonnie{
+           display: block;
+           padding-left: 280px;
+}
 .suejonnie>p{
           display: none;
 }
@@ -33,7 +38,7 @@
            margin-right: 100px;
 }
 .maempress>p{
-           display: none;
+              display: none;
 }
 .monica{
            margin-right: 100px;

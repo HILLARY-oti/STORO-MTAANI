@@ -1,4 +1,5 @@
 $(document).ready(function(){
-  $("#empress").hover()
-  $("#empressp").slideDown()
-})
+  $("#empress").hover(function(){
+    $("#empressp").slideDown()
+  });
+});
