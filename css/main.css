@@ -1,5 +1,6 @@
 .jumbotron{
-           background-color: black;
+           background-image: url(background.jpeg);
+           background-size: contain;
 }
 #logo{
       display: block;
@@ -45,5 +46,5 @@ h1{
    text-align: center;
 }
 body{
-     background-color: black;
+     background-color: gainsboro;
 }
