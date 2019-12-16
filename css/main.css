@@ -22,6 +22,15 @@
 .maempress{
            margin-right: 100px;
 }
+.maempress>p{
+           display: none;
+}
 .monica{
            margin-right: 100px;
+}
+.monica>p{
+           display: none;
+}
+.njoro>p{
+           display: none;
 }
