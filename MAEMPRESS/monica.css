@@ -1,0 +1,19 @@
+.jumbotron{
+           background-image: url(logo.jpeg);
+}
+.column {
+  float: left;
+  width: 5%;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  padding-right: 30px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column>img{
+            border-radius: 50%;
+}
