@@ -1,13 +1,12 @@
 .jumbotron{
-           background-image: url(background.jpeg);
-           background-size: cover;
-           opacity: 0.8;
+           background-color: black;
            padding-left: 500px;
 }
 #logo{
       display: block;
       padding-left: 500px;
 }
+
 .column {
   float: left;
   width: 33.33%;
