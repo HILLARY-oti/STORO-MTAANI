@@ -14,4 +14,9 @@ $(document).ready(function(){
   },function(){
     $("#njorop").slideUp()
   });
+  $("#selina").hover(function(){
+    $("#selinap").slideDown()
+  },function(){
+    $("#selinap").slideUp()
+  });
 });
