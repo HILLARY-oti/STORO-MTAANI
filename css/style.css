@@ -92,3 +92,36 @@ input[type=text],
             }
             /* Set a style for all buttons */
             
+            button {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                padding: 14px 20px;
+                border: none;
+                cursor: pointer;
+                width: 80%;
+                opacity: 0.9;
+            }
+            
+            button:hover {
+                opacity: 0.9;
+                color: rgb(255, 0, 0);
+            }
+            /* Extra styles for the cancel button */
+            
+            .cancelbtn {
+                padding: 14px 20px;
+                background-color: #d6837e;
+            }
+            
+            .signupbtn {
+                padding: 14px 20px;
+                background-color: #000000;
+            }
+            /* Float cancel and signup buttons and add an equal width */
+            
+            .cancelbtn,
+            .signupbtn {
+                float: left;
+                width: 50%;
+            }
+            /* The Modal (background) */
