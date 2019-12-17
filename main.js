@@ -44,6 +44,6 @@ $(document).ready(function(){
   })
   $("#hamburger").click(function(){
     $(".topnav").fadeIn();
-  })
+  });
 
 });
