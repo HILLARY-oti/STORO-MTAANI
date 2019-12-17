@@ -15,3 +15,25 @@ body {
     overflow-x: hidden;
     padding-top: 150px;
 }
+
+/* Style the sidenav links and the dropdown button */
+            
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #cccccc;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+/* On mouse-over */
+
+.sidenav a:hover {
+    color: #ff0000;
+}
+/* Main content */
