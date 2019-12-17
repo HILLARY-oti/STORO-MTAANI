@@ -1,5 +1,6 @@
 .panel{
-           background-color: black;
+           background-image: url(main.jpeg);
+           background-size: cover;
            padding-left: 500px;
 }
 #logo{
@@ -82,9 +83,17 @@ body{
      text-align: center;
 }
 .topnav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   overflow: hidden;
   background-color: black;
   opacity: 0.9;
+  padding-top: 150px;
+  display: none;
 }
 
 .topnav a {
@@ -102,6 +111,6 @@ body{
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: black;
   color: white;
 }

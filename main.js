@@ -42,5 +42,8 @@ $(document).ready(function(){
   $("#titles").click(function() {
     $(".row").show()
   })
+  $("#hamburger").click(function(){
+    $(".topnav").fadeIn();
+  })
 
 });
