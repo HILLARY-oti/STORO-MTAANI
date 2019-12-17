@@ -6,25 +6,55 @@
   <link rel="icon"
     href="https://www.freelogodesign.org/file/app/client/thumb/252033d0-c650-41d1-8ed7-9176f1ee3fdc_200x200.png?1576486770236"
     type="image/p-p">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <style>
   .sailor img {
     width: 225px;
     height: 225px;
   }
+
   body {
     color: brown;
     font-style: italic;
+    background-color: lightslategray;
+    background-image: url(image/v.jpeg);
+    background-size: cover;
   }
+
   .navbar {
     background-color: darkgray;
   }
+
   .navbar a {
     color: whitesmoke;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+  .type{
+    float: left;
+    width: 50%;
+  }
+  .type1{
+    float:left;
+    width: 50%;
+  }
+  .type::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .sailor{
+    margin-left: 200px;
+  }
+   .Fena{
+   margin-left: 200px;
+   }
 </style>
+
 <body>
   <div class="navbar">
     <a href="#">Home</a>
@@ -33,24 +63,33 @@
     <a class="active" href="#">Songs</a>
     <a href="#">Contacts</a>
   </div>
-<div class="type">
-  <div class="sailor">
-    <a href="sailors.html"><img src="image/images.jpeg"></a>
-    <h1>SAILORS GANG</h1>
+  <div class="type">
+
+    <div class="sailor">
+      <a href="sailors.html"><img src="image/images.jpeg"></a>
+      <h1>SAILORS GANG</h1>
+    </div>
+
+    <div class="Fena">
+      <a href="fena.html"><img src="image/download (1).jpeg"></a>
+      <h1>Fena Gitu</h1>
+    </div>
+
   </div>
-  <div class="Fena">
-    <a href="fena.html"><img src="image/download (1).jpeg"></a>
-    <h1>Fena Gitu</h1>
+
+  <div class="type1">
+
+    <div class="khali">
+      <a href="khali.html"><img src="image/download (4).jpeg"></a>
+      <h1>Khaligraph Jones</h1>
+    </div>
+
+    <div class="nadia">
+      <a href="nadia.html"><img src="image/download (3).jpeg"></a>
+      <h1>Nadia Mukami</h1>
+    </div>
+
   </div>
-  <div class="khali">
-    <a href="khali.html"><img src="image/download (4).jpeg"></a>
-    <h1>Khaligraph Jones</h1>
-  </div>
-  <div class="nadia">
-    <a href="nadia.html"><img src="image/download (3).jpeg"></a>
-    <h1>Nadia Mukami</h1>
-  </div>
-</div>
 </body>
 
 </html>
