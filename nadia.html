@@ -4,9 +4,20 @@
     <title>Nadia Mukami</title>
      <link rel="icon" href="image/images (1).png" type="image/p-p">
   </head>
+  <style>
+    #songs {
+      display: none;
+    }
+    body {
+      background-image: url(image/n0.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
   <body>
-    <h1>Nadia's Songs</h1>
-    <ul>
+    <h1 id="song">Songs</h1>
+    <ul id="songs">
+      <p id="close">Close</p>
       <label>Radio Love</label>
       <li><iframe width=" 250" height="115" src="https://www.youtube.com/embed/lKhRHo41AB4" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
@@ -18,5 +29,7 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
     </ul>
       <a href="songs.html">GO BACK</a>
+      <script src="js/jquery-3.4.1.js"></script>
+      <script src="js/scripts.js"></script>
   </body>
 </html>
