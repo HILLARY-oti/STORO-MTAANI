@@ -37,3 +37,21 @@ body {
     color: #ff0000;
 }
 /* Main content */
+
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    background-image: url("https://sirnare.files.wordpress.com/2012/07/crossroads-24_6_12-1-of-1.jpg");
+    background-size: cover;
+    line-height: 600px;
+    color: #f1f1f1;
+}
+
+.img {
+    padding-left: 300px;
+}
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/* Some media queries for responsiveness */
