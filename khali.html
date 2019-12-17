@@ -5,10 +5,28 @@
   <title>Khaligraph Jones</title>
 <link rel="icon" href="image/download.jpeg" type="image/p-p">
 </head>
-
+<style>
+  #songs {
+    display: none;
+  }
+  body {
+    background-image: url(image/k0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  img {
+    margin-right: 2%;
+    width: 225px;
+    height: 225px;
+  }
+  #images {
+    display: none;
+  }
+</style>
 <body>
-  <h1>Khaligraph Songs</h1>
-  <ul>
+  <h1 id="song">Songs</h1>
+  <ul id="songs">
+     <p id="close">Close</p>
     <label> Leave Me Alone </label>
     <li><iframe width=" 250" height="115" src="https://www.youtube.com/embed/f0jlbcwRuto" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
@@ -19,6 +37,16 @@
     <li><iframe width=" 250" height="115" src="https://www.youtube.com/embed/T-5qZh178sk" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
   </ul>
+  <h1 id="image">Gallery</h1>
+
+  <ul id="images">
+    <p id="funga">Close</p>
+    <img src="image/k1.jpeg">
+    <img src="image/k2.jpeg">
+    <img src="image/k3.jpeg">
+  </ul>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
   <a href="songs.html">GO BACK</a>
 </body>
 
