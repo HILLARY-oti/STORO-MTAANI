@@ -7,7 +7,10 @@
       display: block;
       padding-left: 500px;
 }
-
+#hamburger{
+           margin-left: 500px;
+}
+/* style and space images  */
 .column {
   float: left;
   width: 33.33%;
@@ -26,6 +29,7 @@
   clear: both;
   display: table;
 }
+/* hide class description */
 .selina>p{
           display: none;
 }
@@ -53,6 +57,7 @@
 .njoro>p{
            display: none;
 }
+/* center align h1 text */
 h1{
    text-align: center;
    margin-top: 50px;
@@ -91,7 +96,6 @@ body{
   left: 0;
   overflow: hidden;
   background-color: black;
-  opacity: 0.9;
   padding-top: 150px;
   display: none;
 }
@@ -113,4 +117,9 @@ body{
 .topnav a.active {
   background-color: black;
   color: white;
+}
+button{
+       background-color: black;
+       color: white;
+       margin: 50px;
 }
