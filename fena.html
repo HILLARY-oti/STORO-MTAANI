@@ -4,9 +4,28 @@
  <title>Fena Gitu</title>
 <link rel="icon" href="image/images (2).png" type="image/p-p">
   </head>
+  <style>
+    #songs{
+      display: none;
+    }
+      body {
+      background-image: url(image/f0.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      img {
+      margin-right: 2%;
+      width: 225px;
+      height: 225px;
+      }
+      #images {
+      display: none;
+      }
+  </style>
   <body>
-    <h1>Fena songs</h1>
-    <ul>
+    <h1 id="song">songs</h1>
+    <ul id="songs">
+       <p id="close">Close</p>
       <label>Steam</label>
       <li><iframe width=" 250" height="115" src="https://www.youtube.com/embed/6nPbyllBbc4" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -18,6 +37,16 @@
       <li><iframe width=" 250" height="115" src="https://www.youtube.com/embed/XkT2gove_HA" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
     </ul>
+         <h1 id="image">Gallery</h1>
+
+         <ul id="images">
+           <p id="funga">Close</p>
+           <img src="image/f1.jpeg">
+           <img src="image/f2.jpeg">
+           <img src="image/f3.jpeg">
+         </ul>
       <a href="songs.html">GO BACK</a>
+       <script src="js/jquery-3.4.1.js"></script>
+       <script src="js/scripts.js"></script>
   </body>
 </html>
