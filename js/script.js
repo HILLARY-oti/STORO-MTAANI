@@ -5,3 +5,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+var modal = document.getElementById('bout');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
