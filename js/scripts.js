@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("#song").click(function(){
+    $("#songs").slideDown();
+  });
+})
+$(document).ready(function(){
+  $("#image").click(function(){
+    $("#images").slideDown();
+  });
+});
