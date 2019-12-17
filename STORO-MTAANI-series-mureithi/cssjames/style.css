@@ -1,0 +1,243 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: black;
+}
+/* Fixed sidenav, full height */
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 150px;
+}
+
+/* Style the sidenav links and the dropdown button */
+            
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #cccccc;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+/* On mouse-over */
+
+.sidenav a:hover {
+    color: #ff0000;
+}
+/* Main content */
+
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    background-image: url("https://sirnare.files.wordpress.com/2012/07/crossroads-24_6_12-1-of-1.jpg");
+    background-size: cover;
+    line-height: 600px;
+    color: #f1f1f1;
+}
+
+.img {
+    padding-left: 300px;
+}
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/* Some media queries for responsiveness */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Full-width input fields */
+
+input[type=text],
+            input[type=password] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+            /* Add a background color when the inputs get focus */
+            
+            input[type=text]:focus,
+            input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+            /* Set a style for all buttons */
+            
+            button {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                padding: 14px 20px;
+                border: none;
+                cursor: pointer;
+                width: 80%;
+                opacity: 0.9;
+            }
+            
+            button:hover {
+                opacity: 0.9;
+                color: rgb(255, 0, 0);
+            }
+            /* Extra styles for the cancel button */
+            
+            .cancelbtn {
+                padding: 14px 20px;
+                background-color: #d6837e;
+            }
+            
+            .signupbtn {
+                padding: 14px 20px;
+                background-color: #000000;
+            }
+            /* Float cancel and signup buttons and add an equal width */
+            
+            .cancelbtn,
+            .signupbtn {
+                float: left;
+                width: 50%;
+            }
+            /* The Modal (background) */
+
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 60%;
+                height: 100%;
+                background-color: transparent;
+                padding-top: 50px;
+                font-size: 12px;
+                padding-left: 200px;
+            }
+            /* Modal Content/Box */
+            
+            .modal-content {
+                background-color: rgb(190, 190, 190);
+                margin: 0% auto 15% auto;
+                border: 1px solid #888;
+                width: 80%;
+                font-size: 12px;
+            }
+            
+            hr {
+                border: 1px solid #f1f1f1;
+                margin-bottom: 25px;
+            }
+            
+            .close {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                font-size: 40px;
+                font-weight: bold;
+                color: #f1f1f1;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #f44336;
+                cursor: pointer;
+            }
+            
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            @media screen and (max-width: 300px) {
+                .cancelbtn,
+                .signupbtn {
+                    width: 100%;
+                }
+            }
+            /*style about section*/
+            /* Add Zoom Animation */
+            
+            .modal1 {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                padding-top: 50px;
+                font-size: 12px;
+                padding-left: 200px;
+                text-align: center;
+            }
+
+            .animate {
+                -webkit-animation: animatezoom 0.6s;
+                animation: animatezoom 0.6s
+            }
+            
+            @-webkit-keyframes animatezoom {
+                from {
+                    -webkit-transform: scale(0)
+                }
+                to {
+                    -webkit-transform: scale(1)
+                }
+            }
+            
+            @keyframes animatezoom {
+                from {
+                    transform: scale(0)
+                }
+                to {
+                    transform: scale(1)
+                }
+            }
+            /* Change styles for span and cancel button on extra small screens */
+            
+            @media screen and (max-width: 300px) {
+                span.psw {
+                    display: block;
+                    float: none;
+                }
+                .cancelbtn {
+                    width: 100%;
+                }
+            }
+            
+            .footer {
+                width: 100%;
+                background-color: black;
+                color: white;
+                text-align: center;
+                font-size: 12px;
+                padding: 5px;
+            }
