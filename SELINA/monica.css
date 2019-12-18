@@ -1,0 +1,71 @@
+.jumbotron{
+           background-image: url(selina.jpg);
+           background-size: cover;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  padding-right: 100px;
+  color: white;
+  }
+  .row{
+    display: none;
+  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column>img{
+            border-radius: 50%;
+            margin-right: 50px;
+}
+body{
+     background-color: black;
+     color: white;
+}
+.descriptions>p{
+          display: none;
+}
+.description{
+             float: right;
+             margin-left: 200px;
+             margin-right: 200px;
+             margin-top: 100px;
+}
+.iframe{
+       margin-left: 300px;
+       margin-top: 50px;
+       padding-top: 100px;
+       display: none;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.topnav p {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav p:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav p.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#poster{
+        float: left;
+}
