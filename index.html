@@ -24,13 +24,13 @@
         <div id="id01" class="modal">
             <span onclick="document.getElementById('id01').style.display='none'" class="close"
                 title="Close Modal">&times;</span>
-            <form class="modal-content" action="">
+            <form class="modal-content" action="" >
                 <div class="container">
                     <h1>Subscribe To Our Newsletter</h1>
                     <p>Please fill in this form to create an account.</p>
                     <hr>
                     <label for="name"><b>Name</b></label>
-                    <input type="text" placeholder="Enter Name" name="name" required>
+                    <input type="text" placeholder="Enter Name" name="name" required id="name">
 
                     <label for="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter Email" name="email" required>
@@ -43,7 +43,8 @@
                     <div class="clearfix">
                         <button type="button" onclick="document.getElementById('id01').style.display='none'"
                             class="cancelbtn">Cancel</button>
-                        <button type="submit" class="signupbtn">Subscribe</button>
+                        <button onclick="myFunction()" type="submit" class="signupbtn"
+                            value="142995216b">Subscribe</button>
                     </div>
                 </div>
             </form>
@@ -89,6 +90,18 @@
         <script src="https://code.jquery.com/jquery-3.4.1.js "
             integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin=" anonymous "></script>
         <script src="js/script.js "></script>
+       <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+           data-dojo-config="usePlainJson: true, isDebug: false"></script>
+       <script type="text/javascript">
+           window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+               L.start({
+                   "baseUrl": "mc.us4.list-manage.com",
+                   "uuid": "4928f82a3e96a24598b3769d7",
+                   "lid": "142995216b",
+                   "uniqueMethods": true
+               })
+           })
+       </script>
 </body>
 
 </html>
